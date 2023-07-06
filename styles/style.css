@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 50px 150px 0;
+  font-size: 18px;
+}
+body header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+body header p {
+  font-size: 35px;
+  font-weight: bold;
+}
+body nav ul {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+}
+body .main-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body .main-top h1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 55px;
+  letter-spacing: 10px;
+  line-height: 70px;
+  width: 350px;
+  margin-bottom: 20px;
+}
+body .main-top h1::before {
+  background-color: #03faee;
+  content: "";
+  height: 42px;
+  position: absolute;
+  width: 215px;
+  z-index: -1;
+}
+body .main-top p {
+  color: #8b8b8b;
+  letter-spacing: 0.3px;
+  line-height: 2em;
+  margin-bottom: 20px;
+}
+body .main-top button {
+  background-color: #03faee;
+  height: 65px;
+  width: 120px;
+  border-style: dotted;
+  border-radius: 10px;
+  margin-right: 20px;
+  font-size: 15px;
+}
+body .main-top img {
+  width: 500px;
+}
+body .main-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+body article {
+  padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  background-color: #f8f8f8;
+  width: 320px;
+  z-index: -2;
+}
+body article button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border-style: solid;
+  background-color: #f8f8f8;
+  box-shadow: -3px 0px 0px 1px #92f7f2;
+  margin-bottom: 20px;
+}
+body article h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+body article h2::before {
+  background-color: #03faee;
+  content: "";
+  height: 10px;
+  position: absolute;
+  width: 18px;
+  z-index: -1;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+footer div {
+  display: flex;
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer div a {
+  display: flex;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #f8f8f8;
+  box-shadow: -3px 0px 0px 1px #92f7f2;
+}
+footer div img {
+  width: 25px;
+  height: 25px;
+}/*# sourceMappingURL=style.css.map */
